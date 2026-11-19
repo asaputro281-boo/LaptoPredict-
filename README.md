@@ -4,19 +4,19 @@ Aplikasi web berbasis **Django** dan **Machine Learning** untuk memperkirakan ha
 
 ## Fitur Utama
 
-* **Prediksi Harga & Klasifikasi**: Hitung estimasi harga laptop (EUR dan Rupiah) beserta kategori kelas harga berdasarkan spesifikasi RAM, kapasitas penyimpanan (*storage*), dan kelas prosesor (*CPU Tier*)[cite: 4].
-* **Analisis Otomatis Groq AI**: Dapatkan ulasan singkat mengenai kecocokan penggunaan dan kelayakan harga spesifikasi yang dipilih[cite: 4].
+* **Prediksi Harga & Klasifikasi**: Hitung estimasi harga laptop (EUR dan Rupiah) beserta kategori kelas harga berdasarkan spesifikasi RAM, kapasitas penyimpanan (*storage*), dan kelas prosesor (*CPU Tier*).
+* **Analisis Otomatis Groq AI**: Dapatkan ulasan singkat mengenai kecocokan penggunaan dan kelayakan harga spesifikasi yang dipilih.
 * **Asisten Chatbot**: Tanya jawab seputar fitur aplikasi, spesifikasi laptop, dan cara kerja model *machine learning* di web ini.
-* **Grafik & Evaluasi Model**: Lihat metrik evaluasi model (akurasi *Decision Tree*, skor *R²*, dan *MAE*) serta grafik perbandingan rata-rata harga dari dataset[cite: 5, 6].
-* **Riwayat Tersimpan (SQLite)**: Seluruh hasil prediksi dan analisis tersimpan otomatis di `db.sqlite3` serta dapat dilihat atau dihapus kapan saja[cite: 4].
+* **Grafik & Evaluasi Model**: Lihat metrik evaluasi model (akurasi *Decision Tree*, skor *R²*, dan *MAE*) serta grafik perbandingan rata-rata harga dari dataset.
+* **Riwayat Tersimpan (SQLite)**: Seluruh hasil prediksi dan analisis tersimpan otomatis di `db.sqlite3` serta dapat dilihat atau dihapus kapan saja.
 
 ## Teknologi yang Digunakan
 
-* **Backend & Web Framework**: Python, Django[cite: 4]
+* **Backend & Web Framework**: Python, Django
 * **Machine Learning & Data**: Pandas, Scikit-learn, Joblib
 * **AI / LLM**: Groq API
-* **Database**: SQLite (`db.sqlite3`)[cite: 4, 7]
-* **Frontend**: HTML, CSS, Bootstrap, Chart.js[cite: 6]
+* **Database**: SQLite (`db.sqlite3`)
+* **Frontend**: HTML, CSS, Bootstrap, Chart.js
 
 ## Struktur Folder
 
